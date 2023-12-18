@@ -1,0 +1,102 @@
+.imagemap {
+  width: 130px !important;
+  height: 130px !important;
+}
+.img-responsive {
+  width: 480px !important;
+  height: 700px !important;
+  /* background-color: grey !important; */
+}
+.point {
+  font-size: 15px;
+  color: green;
+  background-color: green;
+  border-radius: 50%;
+}
+.counter {
+  border: 1px solid #ffffff;
+  width: 170px;
+  padding: 8px 15px;
+  border-radius: 35px;
+  font-size: 25px;
+  font-weight: 600;
+  background-color: #ffffff;
+}
+.counter button {
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+  font-size: 25px;
+  font-weight: 600;
+}
+.counter-container {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  justify-content: start;
+}
+.cart-button button {
+  width: 175px;
+  border-radius: 35px;
+  background-color: black;
+  color: #ffffff;
+  margin-left: 30px;
+  padding: 5px 20px;
+}
+.wish-heart {
+  color: #e5ba5f;
+  cursor: pointer;
+}
+
+.link {
+  cursor: pointer;
+}
+.description {
+  display: flex;
+  margin-top: 5rem;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+}
+.product img {
+  width: 15rem;
+  height: 20rem;
+  padding-bottom: 30px;
+  margin: 0px 25px;
+  position: relative;
+}
+.previewImg {
+  position: relative;
+}
+.overlay-plus {
+  position: absolute;
+  background-color: white;
+  color: black;
+  padding: 5px 15px;
+  border-radius: 50%;
+  font-size: 29px;
+  left: 83%;
+  top: 2%;
+  text-align: center;
+}
+
+@media screen and (min-width: 500px) and (max-width: 900px) {
+  .overlay-plus {
+    left: 100%;
+    top: 1%;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 900px) {
+  .img-map {
+    display: none;
+  }
+  .img-responsive {
+    width: 150px;
+    height: 150px;
+  }
+}
+.load {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  margin-bottom: 5rem;
+}
